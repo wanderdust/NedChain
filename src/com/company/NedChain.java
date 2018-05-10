@@ -6,7 +6,7 @@ import java.util.*;
 public class NedChain {
 
     public static List <Block> blockChain = new ArrayList<Block>();
-    public static int difficulty = 5;
+    public static int difficulty = 6;
 
     public static void main(String[] args) {
         blockChain.add(new Block("Hi im the first block", "0"));
